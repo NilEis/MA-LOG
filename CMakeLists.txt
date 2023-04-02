@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9.0)
 project(ma-log VERSION 1.0.0 LANGUAGES C)
 
-add_library(ma-log INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include/ma-log.h)
+add_library(ma-log INTERFACE)
 
 target_include_directories(ma-log INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
