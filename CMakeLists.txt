@@ -5,7 +5,7 @@ add_library(ma-log INTERFACE)
 
 target_include_directories(ma-log INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
-option(BUILD_EXAMPLES "build an example" ON)
+option(BUILD_EXAMPLES "build an example" OFF)
 
 if(BUILD_EXAMPLES)
     message("Build examples")
